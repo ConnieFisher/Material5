@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common' ;
+<<<<<<< HEAD
 import { MatButtonModule,  MatAutocompleteModule,
     MatCheckboxModule,
     MatDatepickerModule,
@@ -64,3 +65,12 @@ import { MatButtonModule,  MatAutocompleteModule,
         MatIconModule],
 
 export class MaterialModule {}
+=======
+import { MatButtonModule, MatToolbarModule } from '@angular/material' ;
+
+@NgModule({
+    imports: [MatButtonModule, MatToolbarModule],
+    exports: [MatButtonModule, MatToolbarModule],
+})
+export class MaterialModule { }
+>>>>>>> parent of 80eda69... added imports to app.module

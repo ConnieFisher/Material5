@@ -1,4 +1,4 @@
-import { MaterialModule } from './material.module';
+import { MyMaterialModule} from './mymaterial.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    MaterialModule,
+    MyMaterialModule,
     BrowserAnimationsModule
   ],
   providers: [],
